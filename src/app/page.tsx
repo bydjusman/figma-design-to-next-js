@@ -2,7 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div
+      className="text-center pb-5 mt-0"
+      style={{ backgroundColor: "#FAF5F5" }}
+    >
       {/* Hero Section */}
       <div className="flex flex-col sm:flex-row justify-center px-4 sm:px-36 space-y-8 sm:space-y-0 sm:space-x-20 pt-28 pb-28">
         <div className="w-full sm:w-2/4">

@@ -2,7 +2,10 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Footer() {
   return (
-    <footer className="text-center pb-10 mt-20 bg-red-100 ">
+    <footer
+      className="text-center pb-10 mt-15"
+      style={{ backgroundColor: "#FAF5F5" }}
+    >
       <div>
         <ul className="flex justify-center space-x-6">
           <li>
